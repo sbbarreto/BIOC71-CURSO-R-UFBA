@@ -1,6 +1,6 @@
 ######################################################
 # Introdução Linguagem R
-# Vitor Passos Rios
+# Silvia Britto Barreto
 # Universidade Federal da Bahia
 # https://github.com/vrios/Intro-Linguagem-R/wiki
 #####################################################
