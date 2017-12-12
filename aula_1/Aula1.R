@@ -126,5 +126,3 @@ getwd #function ()
 Getwd() #Error in Getwd() : could not find function "Getwd"
 #Problema é resolvido colocando o G em minúsculo
 #dica: quando o R der erro, copie e cole a mensagem de erro no google
-
-"github mudanca"
