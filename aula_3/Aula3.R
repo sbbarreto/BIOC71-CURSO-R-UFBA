@@ -56,13 +56,9 @@ str(DnD)
 colnames(DnD) = c("peso em centenas de kg", "Dragao identidade", "vacas", "fazendeiros", "virgens", "aventureiros")
 DnD #comando para retirar parenteses e acento no cabeçalho
 
-#modificando uma linha do script
-
 # Refaça o script da aula 2, salvando o objeto caixeta com a coluna coletor e desvio em um arquivo chamado caixeta_com_desvio.csv
 
 caixeta = read.table("caixeta.csv", header=T, sep=",", as.is=T)
 caixeta$coletor= "Darwin"
 caixeta$desvio = caixeta$h - mean(caixeta$h)
 write.csv(x = caixeta, file = "caixeta_com_desvio.csv")
-
-1+1 #script modificado
