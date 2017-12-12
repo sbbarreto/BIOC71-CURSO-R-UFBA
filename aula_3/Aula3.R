@@ -64,3 +64,5 @@ caixeta = read.table("caixeta.csv", header=T, sep=",", as.is=T)
 caixeta$coletor= "Darwin"
 caixeta$desvio = caixeta$h - mean(caixeta$h)
 write.csv(x = caixeta, file = "caixeta_com_desvio.csv")
+
+1+1 #script modificado
